@@ -70,5 +70,6 @@ import decorator
 from decorator import *
 
 import creator
+from pipeline import Pipeline
 
-__all__ = decorator.__all__ + ['creator']
+__all__ = decorator.__all__ + ['creator', 'Pipeline']
